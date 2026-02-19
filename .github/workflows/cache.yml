@@ -22,8 +22,3 @@ jobs:
 
       - name: prime-cache-199a115
         run: echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
-
-            echo "Cache hit"
-          else
-            echo "Cache miss"
-          fi
